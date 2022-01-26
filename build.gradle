@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'groovy'
+
+//mainClassName = 'hello.HelloWorld'
+mainClassName = 'MetadataExample'
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:3.0.9'
+    implementation 'org.apache.commons:commons-imaging:1.0-alpha1'
+}
